@@ -1,0 +1,9 @@
+c=int 
+nf=int
+n=int(input("Digite um numero"))
+nf=n
+c=0
+while c!=10:
+ c= c + 1 
+ nf = n * c
+ print(c, " x ", n, " = ", nf, "\n")
